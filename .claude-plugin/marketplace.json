@@ -1,0 +1,5 @@
+{
+  "name": "ice-baby",
+  "owner": { "name": "Ice Baby" },
+  "plugins": [{ "name": "ib-seguimiento", "source": "./" }]
+}

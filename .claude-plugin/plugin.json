@@ -1,0 +1,23 @@
+{
+  "name": "ib-seguimiento",
+  "version": "0.1.0",
+  "description": "Seguimiento de actividad de Ice Baby: manda a tu panel qué haces en Claude (a la vista).",
+  "userConfig": {
+    "usuario": {
+      "type": "string",
+      "required": true,
+      "description": "Tu nombre de usuario del panel (ej. kenneth, elva, juan, sergio)"
+    },
+    "token": {
+      "type": "string",
+      "required": true,
+      "secret": true,
+      "description": "Token de seguimiento que te da Ivo"
+    },
+    "panel_url": {
+      "type": "string",
+      "default": "https://ice-baby-os.vercel.app/api/actividad",
+      "description": "URL del panel (no la cambies salvo que te lo digan)"
+    }
+  }
+}
